@@ -1,0 +1,20 @@
+0.0.4
+
+-Fixed bug on mspc_hybrid_wait: condition variable was called without locking.
+
+0.0.3
+
+-Linux makefile variables BOOST_INCLUDE and BOOST_LIB added.
+-renamed "frontend_def.hpp" to "frontend.cpp", it made no sense to have it as
+ ".hpp" under the "src" folder.
+
+0.0.2
+
+-Added debug target to Linux makefile
+-Fixed bug that happened when not slicing files (infinite length).
+-Added MAL_STRIP_ALL macro (equivalent to MAL_STRIP_LOG_CRITICAL)
+-Missing typename for stack_ostream macro.
+
+0.0.1
+
+-Initial release

@@ -1,0 +1,1 @@
+#include <mal_log/frontend.cpp>
